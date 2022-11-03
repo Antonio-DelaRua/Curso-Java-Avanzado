@@ -1,0 +1,19 @@
+package PatronesDeDisenyo.PatronesEstructurales.PatronDecorator;
+
+public class TelefonoBasico implements Telefono {
+    @Override
+    public void crear(){
+        System.out.println("Telefono Basico");
+
+        tengoGSM();
+        tengoSMS();
+    }
+
+    private void tengoGSM(){
+        System.out.println(" --> basico: Tengo GSM");
+    }
+
+    private void tengoSMS(){
+        System.out.println(" --> basico: Tengo SMS");
+    }
+}

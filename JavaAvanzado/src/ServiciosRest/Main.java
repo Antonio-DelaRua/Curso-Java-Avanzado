@@ -16,3 +16,4 @@ public class Main {
 // put : con put  creamos informacion al servidor.
 // delete : con delete eliminamos informacion al servidor.
 //
+// ejemplo en proyecto hecho API REST
