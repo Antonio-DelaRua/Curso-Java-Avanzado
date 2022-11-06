@@ -14,8 +14,8 @@ public class Main {
 
 
 
-       // boolean esMayor = esMayor(4,2);
-       // boolean mayor = 4 > 2 ? true : false;
+       boolean esMayor = esMayor(4,2);
+       boolean mayor = 4 > 2 ? true : false;
     }
 
     private static boolean esMayor(int a, int b){
